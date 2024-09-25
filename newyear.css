@@ -1,19 +1,24 @@
 /* section{
     margin: 100px; */
 
-section {
-    margin-left: 235px;
+/* section {
+    margin-left: 235px; */
 
-}
 
-.header {
+
+.banner-content {
     background-image: url('Banner\ Image.png');
     height: 600px;
     width: 1320px;
 
-    margin: 150px;
-    margin-left: 200px;
+    /*margin: 150px;
+    margin-left: 200px; */
     text-align: center;
+    background-repeat: no-repeat;
+    
+    background:;
+    margin: 0 auto;
+
 
 
 
@@ -28,11 +33,15 @@ section {
 .banner-content {
     color: white;
     font-size: large;
+    /* display: flex;
 
-    justify-content: ;
+    justify-content: center; */
     margin-top: ;
-    margin: 350px 350px;
+    margin: ;
     padding: 50px;
+    text-align: center;
+    margin-bottom: ;
+    padding-top: 140px;
 
 
 
@@ -40,24 +49,19 @@ section {
 
 .banner-title {
     font-size: 36px;
-    margin-left: 160px;
-    margin-top: 140px;
-    gap: 2px;
+    
 
 }
 
 .banner-heading {
     font-size: 72px;
-    line-height: 95px;
+    line-height: ;
     font-family: ;
     font-weight: bolder;
-    margin-top: 40px;
-    margin-left: 30px;
+  
 }
 
-.mrg {
-    margin-left: 45px;
-}
+
 
 .off {
     align-content: center;
@@ -176,12 +180,18 @@ section {
 
 }
 
+
 .best-offer-image {
     /* height: 10px;
     width: 10px; */
     margin-left: 25px;
     margin-right: 25px;
+    border;
+    border-style: ;
+    border-radius: 50px;
+    background-color: #ff0000;
 }
+
 
 .offer-title {
     color: #ff0000;
@@ -245,27 +255,6 @@ section {
     color: #070211;
 }
 
-.offer-image-all {
-    height: 986.07;
-    width: 1320px;
-}
-
-.red-line {
-    /* height: 229px;
-    width: 1320px; */
-    justify-content: ;
-
-}
-
-.discount-percent-box {}
-
-.gift-box {
-    height: 662.07px;
-    width: 796.46px;
-
-}
-
-.girl {}
 
 .product-img {
     height: 450px;
@@ -380,16 +369,23 @@ section {
     background-color: black;
     width: 1700px;
     height: 400px;
-    display: flex;
-    justify-content: space-between;
+   
     margin: px;
     /* /* padding-left: 160px;  */
     padding-right: 20px;
     font-size: 20px;
-    margin-top: 100px;
+     margin-top: 100px;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 50px; 
 
+    /* margin: 0 auto;
+    margin-top: 100px; */
+
+}
+
+.address-left-right-flex{
+    display: flex;
+    justify-content: space-between;
 }
 
 .address{
@@ -416,3 +412,69 @@ section {
     display: flex;
     gap: 5px;
 }
+
+.social-icon{
+    
+    /* padding-top: 20px;
+    margin-left: 200px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 5px;
+}
+
+.icons-social{
+    margin-left: 15px;
+   
+}
+.social-img{
+     height:40px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    color:;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.unsub-link{
+    color: white;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+
+header{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+footer{
+    max-width: 1140px;
+    margin: ;
+}
+
+
+
+
+
+
+/* .offer-image-all {
+    display: ;
+    /* height: 986.07;
+    width: 1320px; */
+
+
+/* .gift-box{
+    background-image: url(Group\ 75.png);
+   background-position: bottom right;
+} */
